@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form com check box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="">
+            <div class="input-container">
+                <label class="styled" for="texto">digite seu nome</label>
+                <input id="texto" name="texto" type="text" required>
+            </div>
+            <div class="input-container">
+                <label class="styled" for="email" name="email">digite email</label>
+                <input id="email" type="email" required>
+            </div>
+            <div class="input-container">
+                <label class="styled" for="phone">digite seu telefone</label>
+                <input type="phone" id="phone" required>
+            </div>
+            <div class="last">
+                <input type="checkbox" id="chk">
+                <label class="switch" for="chk">
+                    <span class="slider"></span><p>idade: 10+</p>
+                </label>
+            </div>
+            <div class="last">
+                <input type="checkbox" id="chk2">
+                <label class="switch" for="chk2">
+                    <span class="slider"></span><p>termos e condiçôes</p>
+                </label>
+            </div>
+            <button>Cadastrar</button>
+        </form>
+    </main>
+</body>
+</html>
